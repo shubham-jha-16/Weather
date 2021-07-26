@@ -1,0 +1,10 @@
+<div class="py-4">
+    <p>What is Weather like? </p>
+    <div>
+        <form method="POST">
+            {% csrf_token %}
+            <input type="text" name="city" placeholder="Enter the city name" class="form-control my-3  city-input w-75 mx-auto">
+            <button class="btn btn-warning">Search</button>
+        </form>
+    </div>
+</div>
